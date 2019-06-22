@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  
+  
+  
+    <classes>
+    
+    
+      <class name="com.MercuryTours_Pages.B_MercuryTours_Dep_Return"/>
+      <class name="com.MercuryTours_Pages.A_MercuryTours_HomePage"/>
+      <class name="com.MercuryTours_Pages.C_MercuryTours_Regiseter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

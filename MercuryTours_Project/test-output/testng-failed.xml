@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.MeruryTours.Tests.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Regrission_Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.MercuryTours_Pages.A_MercuryTours_HomePage">
+        <methods>
+          <include name="afterEachTestEnd"/>
+          <include name="beforeEachTestStart"/>
+          <include name="beforeAllClassesStare"/>
+          <include name="signIn"/>
+        </methods>
+      </class> <!-- com.MercuryTours_Pages.A_MercuryTours_HomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
